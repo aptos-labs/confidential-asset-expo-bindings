@@ -1,6 +1,6 @@
 import { registerWebModule, NativeModule } from 'expo';
 
-import { ConfidentialAssetBindingsModuleEvents } from './ConfidentialAssetBindings.types';
+import type { ConfidentialAssetBindingsModuleEvents } from './ConfidentialAssetBindings.types';
 
 class ConfidentialAssetBindingsModule extends NativeModule<ConfidentialAssetBindingsModuleEvents> {
   PI = Math.PI;

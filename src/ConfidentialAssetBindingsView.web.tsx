@@ -1,6 +1,4 @@
-import * as React from 'react';
-
-import { ConfidentialAssetBindingsViewProps } from './ConfidentialAssetBindings.types';
+import type { ConfidentialAssetBindingsViewProps } from './ConfidentialAssetBindings.types';
 
 export default function ConfidentialAssetBindingsView(props: ConfidentialAssetBindingsViewProps) {
   return (
